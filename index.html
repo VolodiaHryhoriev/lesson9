@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .scrollDown {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: 800px;
+            background-color: bisque;
+        }
+        .slideFrom {
+            height: 1000px;
+        }
+        .slideFrom h1 {
+            padding: 10px;
+            border-bottom: 5px solid red;
+            width: 250px;
+            margin-bottom: 100px;
+        }
+        .slideFrom img {
+            float: right;
+            width: 600px;
+            height: 400px;
+            margin-right: 100px;
+        }
+        .scrollUp {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 800px;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <div class="scrollDown">
+        <h1 id='scrollDown'>Scroll Down</h1>
+    </div>
+    <div class="slideFrom">
+        <h1 id="slide">Slide From Left</h1>
+        <img id="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgJJz2pZNuDNyxAEgULHunXqntmrsB9haguQ&usqp=CAU" alt="img">
+    </div>
+    <div class="scrollUp">
+        <h1 id="scrollUp">Scroll Up</h1>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
